@@ -13,7 +13,7 @@ namespace testes
             foreach (dynamic x in res.results)
                 try
                 {
-                    Console.WriteLine(x.type + " " + x.address.freeformAddress + " " + x.address.extendedPostalCode);
+                    Console.WriteLine(x.address.freeformAddress + " " + x.address.extendedPostalCode);
                     
                 }
                 catch (Exception e)
