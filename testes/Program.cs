@@ -9,7 +9,7 @@ namespace testes
         {
             TomTomAPIMain t = new TomTomAPIMain();
             dynamic res = t.ReturnJsonObject("coimbra");
-
+            Console.WriteLine(res.results);
             foreach (dynamic x in res.results)
                 try
                 {
