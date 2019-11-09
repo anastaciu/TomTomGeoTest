@@ -10,7 +10,7 @@ namespace TomTom
         private const string fslash = "/";
         private const string format = ".json";
         private const string keyheader = "?key=";    
-        private const string key = "8GZ3ydfjWrtCG12q5qsVAiwFiXXTXCjm";      
+        private const string key = "***";      
 
         //Coimbra - raio 100 Km
         private const string latitude = "&lat=40.2287547";
